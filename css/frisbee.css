@@ -1,0 +1,39 @@
+body {
+    padding: 5px;
+    margin: 5px;
+}
+
+header {
+    background-image: url(../images/flywheel.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36;
+    margin: 10px 10px 50px 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial times sans-serif;
+    margin: 5%;
+    padding: 15px 70px;
+    color: #000000;
+    background-color: rgba(183, 244, 205, 0.8);
+    border-radius: 10px;
+}
+
+nav a:hover,
+.active {
+    background-color: #fff;
+    opacity: 1;
+}
